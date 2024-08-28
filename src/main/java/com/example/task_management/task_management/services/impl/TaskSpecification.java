@@ -1,7 +1,7 @@
-package com.example.task_management.task_management.tasks.services.impl;
+package com.example.task_management.task_management.services.impl;
 
-import com.example.task_management.task_management.tasks.dto.FilteredTaskDto;
-import com.example.task_management.task_management.tasks.entity.TaskEntity;
+import com.example.task_management.task_management.dto.FilteredTaskDto;
+import com.example.task_management.task_management.entity.TaskEntity;
 import jakarta.persistence.criteria.CriteriaBuilder;
 import jakarta.persistence.criteria.CriteriaQuery;
 import jakarta.persistence.criteria.Predicate;

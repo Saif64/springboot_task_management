@@ -1,4 +1,4 @@
-package com.example.task_management.task_management.tasks.exceptions;
+package com.example.task_management.task_management.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

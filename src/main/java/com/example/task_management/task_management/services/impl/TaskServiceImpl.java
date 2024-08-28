@@ -1,13 +1,13 @@
-package com.example.task_management.task_management.tasks.services.impl;
+package com.example.task_management.task_management.services.impl;
 
-import com.example.task_management.task_management.tasks.dto.FilteredTaskDto;
-import com.example.task_management.task_management.tasks.dto.TaskDto;
-import com.example.task_management.task_management.tasks.entity.TaskEntity;
-import com.example.task_management.task_management.tasks.enums.TaskStatus;
-import com.example.task_management.task_management.tasks.exceptions.ResourceNotFoundException;
-import com.example.task_management.task_management.tasks.mapper.TaskMapper;
-import com.example.task_management.task_management.tasks.repository.TaskRepository;
-import com.example.task_management.task_management.tasks.services.TaskService;
+import com.example.task_management.task_management.dto.FilteredTaskDto;
+import com.example.task_management.task_management.dto.TaskDto;
+import com.example.task_management.task_management.entity.TaskEntity;
+import com.example.task_management.task_management.enums.TaskStatus;
+import com.example.task_management.task_management.exceptions.ResourceNotFoundException;
+import com.example.task_management.task_management.mapper.TaskMapper;
+import com.example.task_management.task_management.repository.TaskRepository;
+import com.example.task_management.task_management.services.TaskService;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVRecord;
 import org.springframework.beans.factory.annotation.Autowired;

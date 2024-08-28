@@ -1,7 +1,7 @@
-package com.example.task_management.task_management.tasks.mapper;
+package com.example.task_management.task_management.mapper;
 
-import com.example.task_management.task_management.tasks.dto.TaskDto;
-import com.example.task_management.task_management.tasks.entity.TaskEntity;
+import com.example.task_management.task_management.dto.TaskDto;
+import com.example.task_management.task_management.entity.TaskEntity;
 
 public class TaskMapper {
     public static TaskEntity toTasks(TaskDto taskDto) {

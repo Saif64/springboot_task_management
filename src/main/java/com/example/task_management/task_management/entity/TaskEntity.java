@@ -1,6 +1,6 @@
-package com.example.task_management.task_management.tasks.entity;
+package com.example.task_management.task_management.entity;
 
-import com.example.task_management.task_management.tasks.enums.TaskStatus;
+import com.example.task_management.task_management.enums.TaskStatus;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

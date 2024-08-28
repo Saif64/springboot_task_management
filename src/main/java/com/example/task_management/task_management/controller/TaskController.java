@@ -1,9 +1,9 @@
-package com.example.task_management.task_management.tasks.controller;
+package com.example.task_management.task_management.controller;
 
-import com.example.task_management.task_management.tasks.dto.FilteredTaskDto;
-import com.example.task_management.task_management.tasks.dto.TaskDto;
-import com.example.task_management.task_management.tasks.entity.TaskEntity;
-import com.example.task_management.task_management.tasks.services.impl.TaskServiceImpl;
+import com.example.task_management.task_management.dto.FilteredTaskDto;
+import com.example.task_management.task_management.dto.TaskDto;
+import com.example.task_management.task_management.entity.TaskEntity;
+import com.example.task_management.task_management.services.impl.TaskServiceImpl;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
